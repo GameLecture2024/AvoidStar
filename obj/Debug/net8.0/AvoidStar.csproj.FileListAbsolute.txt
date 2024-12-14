@@ -12,3 +12,4 @@ C:\Users\Administrator\Desktop\AvoidStar\obj\Debug\net8.0\refint\AvoidStar.dll
 C:\Users\Administrator\Desktop\AvoidStar\obj\Debug\net8.0\AvoidStar.pdb
 C:\Users\Administrator\Desktop\AvoidStar\obj\Debug\net8.0\AvoidStar.genruntimeconfig.cache
 C:\Users\Administrator\Desktop\AvoidStar\obj\Debug\net8.0\ref\AvoidStar.dll
+C:\Users\Administrator\Desktop\AvoidStar\obj\Debug\net8.0\AvoidStar.sourcelink.json

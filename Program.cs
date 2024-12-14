@@ -43,10 +43,15 @@ namespace Study
             // 콘솔 커서를 안보이게 해줘 
             Console.CursorVisible = false;
 
-            int x = 14, y = 28;
-         
+            int x = 14, y = 28; // 플레이어의 시작 위치
+            int Ex = 2, Ey = 0; // 별이 생성될 위치 
+            bool Enemy = false; // 별이 존재할 때 true, false
+
+            Random random = new Random();
+
             while(true)
             {
+                Console.Clear();
                 Console.SetCursorPosition(x, y);
                 // 플레이어의 위치를 그린다.
                 Console.Write("●");
@@ -85,6 +90,28 @@ namespace Study
 
                     // 오른쪽 이동
                 }
+
+                if(!Enemy)
+                {
+                    Enemy = true;
+                }
+                Console.SetCursorPosition(Ex, Ey);
+                Console.Write("★");
+
+
+                if (Enemy)
+                {
+                    Ey = Ey + 1; // 
+                }
+           
+                if (Ey >= 28)
+                {
+                    Enemy = false;
+                    Ey = 0;
+                    Ex = random.Next(0, 28);
+                }
+
+                Thread.Sleep(100);
             }
 
             Console.ReadKey();
