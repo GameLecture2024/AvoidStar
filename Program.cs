@@ -43,9 +43,15 @@ namespace Study
             // 콘솔 커서를 안보이게 해줘 
             Console.CursorVisible = false;
 
+            // 몬스터의 수
+            int enemyCount = 30;
+
             int x = 14, y = 28; // 플레이어의 시작 위치
-            int Ex = 2, Ey = 0; // 별이 생성될 위치 
-            bool Enemy = false; // 별이 존재할 때 true, false
+            bool playerDead = false;
+            // 별의 속성 값( 어디에 위치하는가, 살아 있는가?)
+            int[] Ex = new int[enemyCount];
+            int[] Ey = new int[enemyCount]; // 별이 생성될 위치 
+            bool[] Enemy = new bool[enemyCount]; // 별이 존재할 때 true, false
 
             Random random = new Random();
 
@@ -91,30 +97,56 @@ namespace Study
                     // 오른쪽 이동
                 }
 
-                if(!Enemy)
+                // 몬스터를 한번에 관리하는 코드
+                for(int i =0; i < enemyCount; i++)
                 {
-                    Enemy = true;
-                }
-                Console.SetCursorPosition(Ex, Ey);
-                Console.Write("★");
+                    if (!Enemy[i])
+                    {
+                        // 어떤 enemy true 만들까
 
+                        Enemy[i] = true;
+                        Ey[i] = 0;
+                        Ex[i] = random.Next(0, 28);
+                    }
+                    Console.SetCursorPosition(Ex[i], Ey[i]);
+                    Console.Write("★");
 
-                if (Enemy)
-                {
-                    Ey = Ey + 1; // 
+                    if (Enemy[i])
+                    {
+                        Ey[i] = Ey[i] + 1; // 
+                    }
+
+                    // 조건
+                    // 플레이어가 언제 죽나요?
+                    // 별이랑 충돌했을 때 죽습니다.
+                    // ex,x ey,y 동일할 때
+                    if (x == Ex[i] && y == Ey[i])
+                    {
+                        playerDead = true;
+                    }
+
+                    if (Ey[i] >= 28)
+                    {
+                        Enemy[i] = false;
+                        Ey[i] = 0;
+                        Ex[i] = random.Next(0, 28);
+                    }
                 }
-           
-                if (Ey >= 28)
+
+                if(playerDead == true)
                 {
-                    Enemy = false;
-                    Ey = 0;
-                    Ex = random.Next(0, 28);
+                    Console.SetCursorPosition(0, 15);
+                    Console.WriteLine("아무 키를 입력하면 게임이 재시작됩니다.");
+
+                    Console.ReadKey();
+                    Play();
+                    break;
                 }
 
                 Thread.Sleep(100);
             }
 
-            Console.ReadKey();
+           
 
         }
     }
