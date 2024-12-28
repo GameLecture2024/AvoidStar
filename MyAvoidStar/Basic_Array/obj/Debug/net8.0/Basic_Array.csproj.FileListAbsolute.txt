@@ -1,0 +1,14 @@
+C:\Users\Administrator\Desktop\Basic_Array\bin\Debug\net8.0\Basic_Array.exe
+C:\Users\Administrator\Desktop\Basic_Array\bin\Debug\net8.0\Basic_Array.deps.json
+C:\Users\Administrator\Desktop\Basic_Array\bin\Debug\net8.0\Basic_Array.runtimeconfig.json
+C:\Users\Administrator\Desktop\Basic_Array\bin\Debug\net8.0\Basic_Array.dll
+C:\Users\Administrator\Desktop\Basic_Array\bin\Debug\net8.0\Basic_Array.pdb
+C:\Users\Administrator\Desktop\Basic_Array\obj\Debug\net8.0\Basic_Array.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\Basic_Array\obj\Debug\net8.0\Basic_Array.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\Basic_Array\obj\Debug\net8.0\Basic_Array.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\Basic_Array\obj\Debug\net8.0\Basic_Array.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Basic_Array\obj\Debug\net8.0\Basic_Array.dll
+C:\Users\Administrator\Desktop\Basic_Array\obj\Debug\net8.0\refint\Basic_Array.dll
+C:\Users\Administrator\Desktop\Basic_Array\obj\Debug\net8.0\Basic_Array.pdb
+C:\Users\Administrator\Desktop\Basic_Array\obj\Debug\net8.0\Basic_Array.genruntimeconfig.cache
+C:\Users\Administrator\Desktop\Basic_Array\obj\Debug\net8.0\ref\Basic_Array.dll

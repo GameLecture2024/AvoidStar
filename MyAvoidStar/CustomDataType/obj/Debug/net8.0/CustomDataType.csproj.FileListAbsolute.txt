@@ -1,0 +1,15 @@
+C:\Users\Administrator\Desktop\AvoidStar\CustomDataType\bin\Debug\net8.0\CustomDataType.exe
+C:\Users\Administrator\Desktop\AvoidStar\CustomDataType\bin\Debug\net8.0\CustomDataType.deps.json
+C:\Users\Administrator\Desktop\AvoidStar\CustomDataType\bin\Debug\net8.0\CustomDataType.runtimeconfig.json
+C:\Users\Administrator\Desktop\AvoidStar\CustomDataType\bin\Debug\net8.0\CustomDataType.dll
+C:\Users\Administrator\Desktop\AvoidStar\CustomDataType\bin\Debug\net8.0\CustomDataType.pdb
+C:\Users\Administrator\Desktop\AvoidStar\CustomDataType\obj\Debug\net8.0\CustomDataType.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\AvoidStar\CustomDataType\obj\Debug\net8.0\CustomDataType.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\AvoidStar\CustomDataType\obj\Debug\net8.0\CustomDataType.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\AvoidStar\CustomDataType\obj\Debug\net8.0\CustomDataType.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\AvoidStar\CustomDataType\obj\Debug\net8.0\CustomDataType.sourcelink.json
+C:\Users\Administrator\Desktop\AvoidStar\CustomDataType\obj\Debug\net8.0\CustomDataType.dll
+C:\Users\Administrator\Desktop\AvoidStar\CustomDataType\obj\Debug\net8.0\refint\CustomDataType.dll
+C:\Users\Administrator\Desktop\AvoidStar\CustomDataType\obj\Debug\net8.0\CustomDataType.pdb
+C:\Users\Administrator\Desktop\AvoidStar\CustomDataType\obj\Debug\net8.0\CustomDataType.genruntimeconfig.cache
+C:\Users\Administrator\Desktop\AvoidStar\CustomDataType\obj\Debug\net8.0\ref\CustomDataType.dll
